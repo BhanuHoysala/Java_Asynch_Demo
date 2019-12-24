@@ -33,3 +33,18 @@ public class ThenApplyDemo {
     }
 
 }
+
+/*      
+
+    *********** Sample output ***************
+
+    Thread[main,5,main]
+    Outside Completable (should be the printed first or second) 
+    Inside the Async execution
+    wait is over
+    Thread[ForkJoinPool.commonPool-worker-1,5,main]
+    Thread[ForkJoinPool.commonPool-worker-1,5,main]
+    Executing then apply 1
+    Executing then apply 2
+
+*/
